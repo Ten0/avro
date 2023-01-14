@@ -737,6 +737,8 @@ pub mod schema;
 pub mod schema_compatibility;
 pub mod types;
 
+pub mod proper_serde;
+
 pub use codec::Codec;
 pub use de::from_value;
 pub use decimal::Decimal;
